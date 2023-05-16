@@ -1,0 +1,4 @@
+load-dotenv==0.1.0
+python-dotenv==1.0.0
+telebot==0.0.5
+telegram==0.0.1
