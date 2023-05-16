@@ -1,6 +1,37 @@
-# Telegram_Bot
-Hello, this bot was created to verify the presence of members of a group on telegram
 
+# Como criar um bot no Telegram
+
+Este é um passo a passo resumido de como criar um bot no BotFather.
+
+## Passo 1: Encontre o BotFather
+
+Abra o aplicativo Telegram e procure por "BotFather" na barra de pesquisa.
+
+## Passo 2: Crie um novo bot
+
+Inicie uma conversa com o BotFather e digite o comando "/newbot" para criar um novo bot.
+
+## Passo 3: Escolha um nome para o bot
+
+Siga as instruções do BotFather para escolher um nome para o seu bot.
+
+## Passo 4: Obtenha o token de acesso
+
+Após escolher o nome, o BotFather fornecerá a você um token de acesso único para o seu bot. Anote esse token, pois ele será necessário para interagir com a API do Telegram.
+
+## Passo 5: Personalize o bot (opcional)
+
+Opcionalmente, você pode definir uma descrição e uma foto de perfil para o seu bot usando os comandos fornecidos pelo BotFather.
+
+## Passo 6: Comece a usar o seu bot
+
+Agora que você criou o bot com sucesso, você pode usar o token fornecido pelo BotFather para programar e interagir com o seu bot.
+
+## Recursos Adicionais
+
+Consulte a [documentação oficial do Telegram Bot API](https://core.telegram.org/bots/api) para obter mais informações sobre todas as opções e recursos disponíveis para personalizar e desenvolver seu bot.
+
+---
 
 # Passo a Passo para Utilizar o Bot
 
@@ -37,7 +68,7 @@ O bot enviará uma mensagem informando que você está online a partir do horár
 2. Para definir o status offline, digite o comando "off" no grupo do telegram no qual o bot esta alocado e pressione Enter.
 O bot enviará uma mensagem informando que você está offline a partir do horário em que o comando foi enviado e fornecerá o tempo decorrido entre o momento em que você digitou "on" e quando você digitou "off".
 
-3. Para encerrar a execução do bot, pressione Ctrl+C no terminal.
+3. Para encerrar a execução do bot, pressione Ctrl+C no terminal no qual o bot está sendo executado.
 
 ## Considerações Finais
 
