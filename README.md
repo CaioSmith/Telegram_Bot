@@ -10,23 +10,23 @@ Este repositório contém um bot que permite definir o status online/offline com
 
 Clone este repositório para sua máquina local usando o comando:
 '''shell
-git clone https://github.com/CaioSmith/Telegram_Bot.git
+$ git clone https://github.com/CaioSmith/Telegram_Bot.git
 
 ## Passo 2: Configuração
 
 Certifique-se de ter o Python instalado em sua máquina. Em seguida, instale as dependências necessárias executando o seguinte comando:
 '''shell
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 
 ## Passo 3: Execução
 
 1. Navegue até o diretório do projeto:
 '''shell
-cd Telegram_Bot
+$ cd Telegram_Bot
 
 2. Execute o arquivo do bot:
 '''shell
-bot_online.py
+$ bot_online.py
 
 ## Passo 4: Utilização
 
