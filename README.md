@@ -35,7 +35,6 @@ $ bot_online.py
 O bot enviará uma mensagem informando que você está online a partir do horário em que o comando foi enviado.
 
 2. Para definir o status offline, digite o comando "off" no grupo do telegram no qual o bot esta alocado e pressione Enter.
-
 O bot enviará uma mensagem informando que você está offline a partir do horário em que o comando foi enviado e fornecerá o tempo decorrido entre o momento em que você digitou "on" e quando você digitou "off".
 
 3. Para encerrar a execução do bot, pressione Ctrl+C no terminal.
