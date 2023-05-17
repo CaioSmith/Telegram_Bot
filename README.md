@@ -54,11 +54,11 @@ $ pip install -r requirements.txt
 
 1. Navegue até o diretório do projeto:
 ```shell
-$ cd Telegram_Bot
+$ cd caminho/do/diretorio/na/sua/maquina
 ```
 2. Execute o arquivo do bot:
 ```shell
-$ bot_online.py
+$ python bot_online.py
 ```
 ## Passo 4: Utilização
 
