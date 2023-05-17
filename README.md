@@ -58,7 +58,7 @@ $ cd caminho/do/diretorio/na/sua/maquina
 ```
 2. Execute o arquivo do bot:
 ```shell
-$ bot_online.py
+$ python bot_online.py
 ```
 ## Passo 4: Utilização
 
