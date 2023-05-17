@@ -28,7 +28,7 @@ def on_handler(message):
         
         # Verifica se o usuário já está online
         if user_id in user_status and user_status[user_id]['is_online']:
-            bot.send_message(chat_id=message.chat.id, text= f'@{message.from_user.username} Você já está online SEU IMBECIL BURRO, PRESTA ATENÇÃO POHA')
+            bot.send_message(chat_id=message.chat.id, text= f'@{message.from_user.username} Você já está online')
         else:
             # Registra o horário de entrada
             now = datetime.datetime.now()
@@ -38,7 +38,7 @@ def on_handler(message):
                                     'total_time': datetime.timedelta(0)}
             
             # Envia uma mensagem confirmando a entrada
-            reply_message = f'@{message.from_user.username} você está ON seu merda, e ainda é ás {new_now} seu bosta'
+            reply_message = f'@{message.from_user.username} você está online ás {new_now}'
             bot.send_message(chat_id=message.chat.id, text=reply_message)
 
 # Função que é executada quando o usuário digita "off"
@@ -77,7 +77,7 @@ def off_handler(message):
                     
                 bot.send_message(chat_id=message.chat.id, text=reply_message)
         else:
-            reply_message = f'@{message.from_user.username} Você não estava ON antes porra, deixa de ser burro crlh, putaqpariu!'
+            reply_message = f'@{message.from_user.username} Você não estava ON antes!'
             bot.send_message(chat_id=message.chat.id, text=reply_message)
 
 # # Função para mostrar o tempo que os usuários ficaram online
