@@ -77,7 +77,7 @@ def off_handler(message):
                     
                 bot.send_message(chat_id=message.chat.id, text=reply_message)
         else:
-            reply_message = f'@{message.from_user.username} Você não estava ON antes!'
+            reply_message = f'@{message.from_user.username} Você não estava online antes!'
             bot.send_message(chat_id=message.chat.id, text=reply_message)
 
 # # Função para mostrar o tempo que os usuários ficaram online
